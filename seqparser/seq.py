@@ -13,7 +13,7 @@ def transcribe(seq: str, reverse: bool = False) -> str:
     transcription = ""
 
     for ch in seq:
-        transcription.add(TRANSCRIPTION_MAPPING[ch])
+        transcription += TRANSCRIPTION_MAPPING[ch]
 
     if reverse is False:
         return transcription
