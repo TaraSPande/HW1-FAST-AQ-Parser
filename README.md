@@ -30,7 +30,7 @@ We've provided for you a basic Fasta and Fastq parser (written out in the parse.
 	- [x] Transcription
 	- [x] Reverse Transcription
 
-- [ ] Automate Testing with a [Github Actions](https://docs.github.com/en/actions)
+- [x] Automate Testing with a [Github Actions](https://docs.github.com/en/actions)
 
 	See blogposts below on helping set up github actions with pytest:
 	
